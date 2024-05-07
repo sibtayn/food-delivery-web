@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    height: 60px;
+    background-color: lightgray;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    height: 55px;
+    width: 80px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+
+    /* border-radius: 50%; */
+}
+.mylogo{
+    background-image: url("india-flag-icon.jpg");
+    background-size: cover;
+    height: 40px;
+    width: 80px;
+    padding-bottom: 40px;
+
+    /* margin-top: 0px; */
+    /* padding-left: 5px; */
+    /* border-radius: 100%; */
+    /* border-radius: 50%; */
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    list-style-type: none;
+    padding-left: 15px;
+    justify-content: space-between;
+}
+.list a{
+    display: flex;
+    padding: 9px;
+    text-decoration: none;
+    border-radius: 15px;
+    color: black;
+    
+}
+.list a:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.all{
+    height: 450px;
+    width: 100%;
+    background-image: url("food-delivery-images/pexels-ella-olsson-572949-1640773.jpg");
+    background-size: cover;
+    z-index: 1;
+}
+.welcome{
+    height: 250px;
+    text-align: center;
+    padding-top: 90px;
+    
+}
+.online-meal{
+    font-size: 2rem;
+}
+.lorem{
+    text-align:center;
+    font-size: 1rem;
+}
+
+button{
+    background-color: yellow;
+    border-radius: 5px;
+    border: 3px solid black;
+    font-size: medium;
+}
+.allitems{
+    /* height: 1000px; */
+    background-color:#F4EDED;
+    /* display: flex; */
+    text-align: center;
+    padding-top: 20px;
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.item1{
+    margin-top: 40px;
+    height: 300px;
+    width: 300px;
+    border: 2px solid red;
+    /* background-image: url("food-delivery-images/pizza-logo.jpg"); */
+    background-size: cover;
+    border-radius: 8px ;
+
+}
+.item2{
+    margin-top: 40px;
+    height: 300px;
+    width: 300px;
+    border: 2px solid red;
+    /* background-image: url("food-delivery-images/burger-logo.jpeg"); */
+    background-size: cover;
+    border-radius: 8px ;
+}
+.item3{
+    margin-top: 40px;
+    height: 300px;
+    width: 300px;
+    border: 2px solid red;
+    /* background-image: url("food-delivery-images/delivery-boy.webp"); */
+    background-size: cover;
+    border-radius: 8px ;
+}
+
+.clients{
+    padding-top: 30px;
+    height: 400px;
+    background-color:#F4EDED;
+   
+
+}
+.ourclient{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 350px;
+}
+.client{
+    padding: 30px;
+}
+.clients2{
+    background-image: url("food-delivery-images/Food-background.jpg");
+    opacity: 0.8;
+}
+
+.contact-us{
+    background-color: #F4EDED;
+}
+.client-fullback{
+    margin-top: 40px;
+    background-image: url("contact500.jpg");
+    height: 500px;
+    opacity: 1; 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center; */
+    justify-content: space-around;
+    z-index: -1;
+
+}
+#name{
+    width: 100%;
+    height: 60%;
+    border-radius: 3px;
+    font-size: 1.5rem;
+}
+#email{
+    width: 100%;
+    border-radius: 3px;
+    height: 60%;
+    font-size: 1.5rem;
+}
+#phone{
+    width: 100%;
+    border-radius: 3px;
+    font-size: 1.5rem;
+    height: 60%;
+}
+#message{
+    width: 100%;
+    border-radius: 3px;
+}
+
+.extra-inn{
+    opacity: 1;
+    z-index: 1;
+}
+
+.last-part{
+    background-color: black;
+    height: 50px;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
